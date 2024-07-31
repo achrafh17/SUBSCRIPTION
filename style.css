@@ -1,0 +1,113 @@
+/*font-family: "Karla", sans-serif;-*/
+/*font-family: "Poppins", sans-serif;*/
+body {
+  background-color: hsl(218, 22%, 67%);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 50%;
+}
+.main {
+  background-color: white;
+  width: 50vw;
+  height: 70vh;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+.toppart {
+  padding-left: 4%;
+  padding-top: 2%;
+  width: 100%;
+}
+#firsttext {
+  color: hsl(179, 62%, 43%);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+#secondtext {
+  color: hsl(71, 73%, 54%);
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+#thirdtext {
+  color: hsl(218, 22%, 67%);
+  font-family: "Poppins", sans-serif;
+  font-size: 20;
+}
+.bottom {
+  display: flex;
+}
+.bottomleft {
+  width: 385px;
+  height: 290px;
+  background-color: hsl(179, 62%, 43%);
+  padding-left: 40px;
+  padding-top: 20px;
+}
+.bottomright {
+  width: 385px;
+  height: 290px;
+  background-color: #4bbebc;
+}
+#monthly {
+  font-family: "Poppins", sans-serif;
+  color: white;
+  font-size: 20px;
+}
+.per {
+    display: flex;
+    margin-top: -45px;
+}
+#price {
+    color: white;
+    font-size: 40px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+}
+#per {
+    margin-left: 15px;
+    margin-top: 55px;
+    color:hsl(225, 6%, 75%) ;
+    font-weight: 300;
+    font-family: "Poppins", sans-serif;
+}
+#full {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: -30px;
+}
+button {
+    width: 80%;
+    background-color:hsl(71, 73%, 54%) ;
+    border: none;
+    margin-top: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    
+}
+#sign {
+    color: white;
+    font-size: 15px;
+}
+.bottomright {
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-right: 30px;
+}
+#why {
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+#tutoriel {
+    color: white;
+    position: absolute;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    padding-right: 500px;
+}
